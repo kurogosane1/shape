@@ -1,7 +1,13 @@
 var require = require('request');
+// any data that is going to be requested is asked//
 var fs = require('fs');
 
-//Setting up the function for square side//
+//making the other files available to each other//
+var Shape = require('./shape.js');
+var Triangle = require('./Traingle.js');
+
+
+//Setting up the function for square side and create it as a constructor//
 var Square = function (side1, side2){
     this.side1 = side1;
     this.side2 = side2;

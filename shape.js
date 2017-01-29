@@ -1,13 +1,15 @@
-
-// creating the object
-var Object = {};
-
-//adding its properties//
-Object.type = type;
+var Triangle = require("./Triangle.js");
+var Square = require('./square.js');
 
 
-
-//This is to create the new Shape Constructor now//
-var Shape = new Object(type);
-
-
+//creating the object//
+var Shape = function(){
+    this.type = type;
+    //attaching a method to the object//
+    this.get_type = function ()
+    {
+        this.Square.call();
+        this.Triangle.call();
+    }
+    
+};
