@@ -1,0 +1,24 @@
+{
+  "name": "shape",
+  "version": "1.0.0",
+  "description": "This is a shape generating repository",
+  "main": "shape.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurogosane1/shape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurogosane1/shape/issues"
+  },
+  "homepage": "https://github.com/kurogosane1/shape#readme"
+}

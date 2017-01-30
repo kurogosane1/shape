@@ -1,5 +1,5 @@
-var Triangle = require("./Triangle.js");
-var Square = require('./square.js');
+var Triangle = require("Triangle.js");
+var Square = require("square.js");
 
 
 //creating the object//
@@ -13,3 +13,4 @@ var Shape = function(){
     }
     
 };
+console.log(get_type instanceof Shape );

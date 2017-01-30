@@ -13,7 +13,7 @@ var Square = function (side1, side2){
     this.side2 = side2;
 
 };
-
+console.log(Traingle instanceof Square);
 //This will allow the square Object constructor to move to another location where it could be called//
 
 module.exports  = Square; 
